@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+*{margin: 0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+li{list-style: none;}
+a{text-decoration:none;}
+
+.main{height:994px;width:1136px;margin: 0 auto;}
+.main p{display: flex;justify-content: space-between;padding-bottom: 30px;}
+.main p a{width:31%;}
+.main p a img{display: block;}
+.main p:nth-child(1){padding-top:60px;}
