@@ -2,10 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <title>我的第一个网站</title>
+    <title>Title</title>
+    <style>
+        div
+        {
+            width: 50px;
+            height: 50px;
+            line-height: 60px;
+            font-size: 50px;
+            text-align: center;
+            background-color: greenyellow;
+            cursor: default;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-<h1>hello work 哈哈 </h1>
+<div>^</div>
+<script>
+    var bool=false;
+    var div
+    init();
+    function init() {
+        for(var i=3;i<80;i++){
+            var img=new Image();
+            img.src="img/"+i+"-.jpg";
+            img.style.display="block";
+            document.body.appendChild(img);
+        }
+        div=document.querySelector("div");
+        div.addEventListener("click",clickHandler);
+        window.addEventListener("mousewheel",mouseHandler);
+        window.addEventListener("DOMMouseScroll",mouseHandler);
+        window.addEventListener("scroll",mouseHandler);
+        setInterval(animation,16);
+    }
+
+    function mouseHandler(e) {
+        if(document.documentElement.scrollTop>document.documentElement.clientHeight){
+            div.style.display="block";
+        }else{
+            div.style.display="none";
+        }
+    }
+    function clickHandler(e) {
+        bool=true;
+    }
+
+
+    function animation() {
+        if(!bool) return;
+        if(document.documentElement.scrollTop<=0) bool=false;
+        document.documentElement.scrollTop-=400;
+    }
+</script>
 </body>
 </html>
