@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+*{margin: 0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+li{list-style: none;}
+a{text-decoration:none;}
+
+.bottom{height:140px;background: #363636;}
+.bottom0{height:140px;width:1136px;margin: 0 auto;}
+.bottom .bottom0 p{text-align: center;color:#7b7b7b;font-size:12px;padding-bottom: 16px;}
+.bottom .bottom0 p a{color:#7b7b7b;}
+.bottom .bottom0 p:nth-child(1){padding-top: 30px;}
