@@ -70,13 +70,15 @@
 .logo1{height:59px;background:url(../img/beijing1.png);}
 .logo1 p{text-align:center;}
 /*main*/
-.main1{width:73%;}
+
+.main1{width:74%;}
+.main2,.main3{width:1000px;}
 /*.main{width:1000px;}*/
-.main,.main1{height:32px;margin:0 auto;padding-top:39px;}
-.main span,.main1 span{width:6px;height:24px;display:block;background:#ff6200;position:absolute;}
-.main .main-span,.main1 .main1-span {width:6px;height:24px;display:block;background:#ffae00;position:absolute;}
-.main p,.main1 p{padding-left:14px;font-size:24px;height:23px;line-height:24px;}
-.main-beijing,.main1-beijing{height:7px;width:100%;background:url(../img/beijing2.png);position:relative;top:8px;}
+.main,.main1,.main2,.main3{height:32px;margin:0 auto;padding-top:39px;}
+.main span,.main1 span,.main2 span{width:6px;height:24px;display:block;background:#ff6200;position:absolute;}
+.main1 .main1-span,.main1 .main1-span,.main2 .main2-span,.main3 .main3-span {width:6px;height:24px;display:block;background:#ffae00;position:absolute;}
+.main p,.main1 p,.main2 p,.main3 p{padding-left:14px;font-size:24px;height:23px;line-height:24px;}
+.main-beijing,.main1-beijing,.main2-beijing,.main3-beijing{height:7px;width:100%;background:url(../img/beijing2.png);position:relative;top:8px;}
 /*tzlc*/
 .tzlc{height:43px;width:1000px;margin:0 auto;margin-top:19px;}
 .tzlc ul li{list-style:none;float:left;line-height:43px;font-size:17px;width:105px;text-align:center;margin-right:10px;}
