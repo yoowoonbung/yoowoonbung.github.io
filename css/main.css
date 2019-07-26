@@ -1,0 +1,121 @@
+.ticket{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 484px;
+    background: url(../img/quan1.png) no-repeat;
+}
+.ticket1{
+    position: absolute;
+    cursor: pointer;
+    
+}
+.ticket-1{
+    top: 13.61%;
+    left: 2.08%;
+    width: 28.04%;
+    height: 35.83%;
+}
+.ticket-2{
+    top: 14.29%;
+    left: 30.56%;
+    width: 21.8%;
+    height: 34.24%;
+}
+.ticket-3{
+    top: 13.83%;
+    left: 53.45%;
+    width: 21.69%;
+    height: 34.47%;
+}
+.ticket-4{
+    top: 14.51%;
+    left: 77.44%;
+    width: 21.69%;
+    height: 32.43%;
+}
+.ticket-5{
+    top: 68.93%;
+    left: 0.66%;
+    width: 18.51%;
+    height: 26.76%;
+}
+.ticket-6{
+    top: 68.93%;
+    left: 21.69%;
+    width: 17.74%;
+    height: 26.98%;
+}
+.ticket-7{
+    top: 68.03%;
+    left: 41.29%;
+    width: 17.63%;
+    height: 26.53%;
+}
+.ticket-8{
+    top: 68.25%;
+    left: 60.13%;
+    width: 19.06%;
+    height: 25.62%;
+}
+.ticket-9{
+    top: 67.8%;
+    left: 80.61%;
+    width: 17.63%;
+    height: 27.21%;
+}
+
+.ticket-bottom{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    background: url(../img/quan.png) no-repeat;
+    height: 256px;
+}
+.ticket-bottom a{
+    top: 0%;
+    left: 0%;
+    width: 99.12%;
+    height: 97.11%;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+
+/* **************分会场parallelSessions***************** */
+.parallelSessions{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    background:url(../img/huichang.png) no-repeat;
+    height: 293px;
+}
+.parallelSessions0{
+    position: absolute;
+    cursor: pointer;
+} 
+.parallelSessions1{
+    top: 1.01%;
+    left: 0.94%;
+    width: 22.52%;
+    height: 96.1%;
+}
+.parallelSessions2{
+    top: 0.01%;
+    left: 26.55%;
+    width: 21.31%;
+    height: 96.28%;
+}
+.parallelSessions3{
+    top: 3.03%;
+    left: 50.27%;
+    width: 22.52%;
+    height: 94.21%;
+}
+.parallelSessions4{
+    top: 0%;
+    left: 75.65%;
+    width: 22.64%;
+    height: 97.11%;
+}

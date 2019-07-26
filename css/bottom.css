@@ -1,0 +1,155 @@
+footer{margin: 80px 0 0;}
+footer a:hover{text-decoration: underline}
+.foot-top{
+    background: #fff;
+    border-top: 1px solid #eaeaea;
+    height: 411px;
+}
+.foot-top .box{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: left;
+    color: inherit;
+    cursor: default;
+    display: block;
+}
+.btn-list{
+    padding: 49px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.btn-list ul li{
+    float: left;
+    width: 233px;
+    margin-left: 42px;
+}
+.btn-list ul li div{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+}
+.btn-list ul li strong{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    line-height: 22px;
+}
+.btn-list ul li span{
+    font-size: 14px;
+    display: block;
+    line-height: 22px;
+}
+
+
+.btn-list-bom{
+    padding: 45px 0 90px;
+}
+.btn-list ul{
+    width: 1100;
+    height: 48px;
+}
+.btn-list-bom ul li{
+    float: left;
+    width: 110px;
+    padding: 0 0 0 21px;
+    height: 128px;
+}
+.btn-list-bom ul li:first-child{
+    width: 218px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+.btn-list-bom ul li:first-child>a{
+    display: block;
+    width: 220px;
+    height: 43px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    outline: none;
+    cursor: pointer;
+    z-index: 9;
+    background: url(../img/logo.png) no-repeat;
+} 
+.btn-list-bom ul li:first-child div a{
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-list-bom ul li:first-child div span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #333333;
+    position: relative;
+    top:-10px;
+}
+
+.btn-list-bom ul li dl dt{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin: -4px 0 10px;
+}
+.btn-list-bom ul li dl dd{line-height: 29px;}
+.btn-list-bom ul li dl dd a{
+    font-size: 12px;
+    color: #333333;
+}
+.btn-list-bom ul li:last-child{ text-align: center;}
+.btn-list-bom ul li:last-child span{
+    font-size: 12px;
+    color: #333333;
+}
+.btn-list-bom ul li:last-child img{
+    margin: 0 0 6px;
+}
+
+
+/* foot-bottom */
+.foot-bottom{
+    position: relative;
+    padding: 20px 0;
+    background: #333;
+    line-height: 26px;
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+.foot-bottom a{
+    color: #c2c2c2;
+    font-size: 12px;
+}
+.foot-bottom>span{margin-left: 20px;}
+.foot-bottom a span{margin-left: 20px;}
+.foot-bottom .a-11 span{margin-left: 0;}
+
+.bom-tu{
+    text-align: center;
+}
+.bom-tu a{display: inline-block;}
+.bom-tu img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.bom-tu a:nth-child(1) img{
+    height: 30px;
+    margin: 5px 15px 0 0;
+}
+.bom-tu a:nth-child(2) img{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.bom-tu a:nth-child(3) img{
+    height: 30px;
+    margin: 5px 0 0 10px;
+}

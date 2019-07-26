@@ -1,0 +1,166 @@
+.productList{
+    width: 1000px;
+    margin: 0 auto;
+    height: 925px;
+    box-sizing: border-box;
+}
+.productList ul{
+    padding: 0 2.5px;
+    overflow: visible!important;
+    box-sizing: border-box;
+}
+.productList ul li{
+    width: 20%;
+    height: 284px;
+    padding: 0 2.5px 5px;
+    overflow: visible;
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 1px;
+    padding-right: 5px;
+
+}
+
+.productList1{
+    margin-top: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.productList-title{
+    color: rgb(255, 255, 255);
+    background-color: rgb(227, 20, 54);
+    margin: 10px 0;
+    padding: 0 5px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 28px;
+    display: block;
+}
+
+/* goods 具体商品列表 */
+.goods-z{
+    padding: 0 0 10px;
+    background: #fff;
+    position: relative;
+    
+}
+.goods-z-z{
+    width: 100%;
+    position: relative;
+    background: #fff;
+    z-index: 1
+    
+}
+/* .productList1 section{
+    padding: 0 0 10px;
+    background: #fff;
+    position: relative;
+} */
+.goods-img{
+    padding: 100% 0 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  
+}
+.goods-img img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.shuangPin img{
+    
+    width: 57.6px;
+    height: 38.4px;
+    position: absolute;
+    left: 128px;
+    top: 15px;
+   
+}
+.productList ul li h5{
+    transition: .5s ease-out;
+    max-height: 22px;
+    line-height: 22px;
+    margin: 3px 5px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.productList ul li h5 a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.productList ul li h6{
+    height: 20px;
+    margin: 0 5px 5px;
+    color: #666;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 400;
+}
+.price{
+    color: rgb(227, 20, 54);
+    margin: 0 5px;
+    height: 22px;
+    overflow: hidden;
+    white-space: normal;
+    line-height: 22px;
+    
+}
+.price>span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.price>span i{
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn-buy{
+    position: absolute;
+    bottom: 10px;
+    height: 22px;
+    line-height: 22px;
+    right: 5px;
+}
+.btn-buy span{
+    display: block;
+    height: 24px;
+    padding: 0 6px;
+    border-radius: 3px;
+    background: #e31436;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+
+/* ************保障*************** */
+.baozhang{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 400px;
+    background: url(../img/bottom/baozhang.png) no-repeat;
+}   
+.baozhang a{
+    position: absolute;
+    cursor: pointer;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+    

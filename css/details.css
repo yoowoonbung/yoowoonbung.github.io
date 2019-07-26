@@ -1,0 +1,337 @@
+*{padding: 0;margin: 0}
+body{
+    background: #fff;
+    color: #333
+}
+#MagnifyingGlass{
+    width: 1090px;
+    height: 536px;
+    /* padding-top: 20px; */
+    margin:20px auto;
+    position: relative;
+}
+#details-left{
+    float: left;
+    height: 536px;
+}
+.details-right{
+    /* position: relative; */
+    float: left;
+    width: 630px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.details-right dt{color: #333;}
+.details-right dt:nth-child(1){
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    margin-left: -6px;
+    font-size: 0;
+}
+.details-right dt:nth-child(1) i:nth-child(1){
+    display: inline-block;
+    width: 54px;
+    height: 22px;
+    margin-left: 6px;
+    padding-right: 6px;
+    line-height: 22px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    background: url(../img/details/logo.png) no-repeat;
+    background-position: -94px 0;
+    color: #cf2c48;
+}
+
+.details-right dt:nth-child(1) i:nth-child(2){
+    display: inline-block;
+    width: 54px;
+    height: 22px;
+    margin-left: 6px;
+    padding-right: 6px;
+    line-height: 22px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    background: url(../img/details/logo.png) 0 0 no-repeat;
+    background-position: -160px 0;
+    color: #8b71c5;
+}
+
+
+
+/* 第二个dt */
+.details-right dt:nth-child(2) img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+.details-right dt:nth-child(2) span,.details-right dt:nth-child(2) a{
+    font-size: 13px;
+    margin-left: 6px;
+    color: #999;
+    font-weight: 400;
+    vertical-align: middle;
+}
+/* 第三个dt */
+
+.details-right dt:nth-child(3){
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* 第四个dt */
+
+.details-right dt:nth-child(4){
+    margin-bottom: 11px;
+    color: #333;
+    line-height: 20px;
+    font-size: 13px;
+}
+/* *******************shoujia dd1*********************** */
+.shoujia-dd1{
+    background-color: #f9f9f9;
+    z-index: 22;
+    margin-bottom: 12px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 4px;
+}
+.shoujia1{
+    overflow: hidden;
+    position: relative;
+    padding-top: 5px;
+    border-top: 1px dotted #ddd;
+    z-index: 100;
+    font-size: 0;
+}
+.shoujia1>span{
+    margin-left: 10px;
+    font-size: 12px;
+    float: left;
+    line-height: 26px;
+    margin: 8px 0 8px 9px;
+    vertical-align: 4px;
+    /* display: inline-block; */
+    width: 75px;
+    color: #666;
+}
+.shoujia1 div{
+    margin-left: 71px;
+}
+.shoujia1 div span:nth-child(1){
+    font-size: 12px;
+    color: #e31436;
+    font-weight: bold;
+    vertical-align: 4px;
+    line-height: 1;
+    margin-right: 4px;
+}
+.shoujia1 div>span:nth-child(2){
+    position: relative;
+    top: -3px;
+    font-size: 24px;
+    color: #e31436;
+    font-weight: bold;
+    vertical-align: baseline;
+    line-height: 1;
+    margin: 8px 0;
+    display: inline-block;
+}
+.shoujia1 div>span:nth-child(2)>span{
+    font-size: 20px;
+}
+.shoujia1 div>span:nth-child(3){
+    /* ertical-align: 4px; */
+    padding: 0 5px 0 10px;
+    font-size: 12px;
+}
+/* shoujia2 */
+.shoujia2{
+    position: relative;
+    margin-top: -2px;
+    margin-bottom: 8px;
+} 
+.shoujia2-top{
+    line-height: 20px;
+    margin-left: 72px;
+    font-size: 0;
+}
+.shoujia2-top img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 17px;
+    margin-right: 4px;
+}
+.shoujia2-top span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #1e1e1e;
+}
+.shoujia2-top span i{
+    color: #FF0000;
+    font-style: normal;
+    font-weight: 500;
+}
+.shoujia2-buttom{
+    margin-left: 122px;
+    color: #737373;
+    line-height: 20px;
+    font-size: 0;
+}
+.shoujia2-buttom>span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 20px;
+}
+.shoujia2-buttom div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #4a90e2;
+    font-size: 12px;
+    text-decoration: normal;
+    cursor: pointer;
+}
+
+/* **********************shoujia dd2******************* */
+.shoujia-dd2{
+    position: relative;
+    margin-top: -12px;
+    padding-top: 12px;
+}
+.shoujia-dd2>span{
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    vertical-align: middle;
+}
+.shoujia-dd2>div{
+    display: inline-block;
+    font-size: 12px;
+    width: 570px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shoujia-dd2>div span{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 490px;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    left:84px;
+}
+.shoujia-dd2>div span a{color: #e31436}
+
+/* **********************shoujia dd3******************* */
+.shoujia-dd3 img{
+    padding-left: 80px;
+}
+
+/* **********************shoujia dd4******************* */
+.shoujia-dd4{
+    position: relative;
+    margin-top: -12px;
+    padding-top: 12px;
+}
+.shoujia-dd4>span{
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    vertical-align: middle;
+}
+
+#DD{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 490px;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    left:84px;
+}
+/* **********************shoujia dd5******************* */
+.shoujia-dd5{
+    position: relative;
+    margin-top: 21px; /*-12*/
+    /* padding-top: 27px; */
+}
+.shoujia-dd5>span{
+    margin-left: 10px;
+    font-size: 12px;
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    vertical-align: middle;
+}
+.shoujia-dd5>div span{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 490px;
+    font-size: 12px;
+    position: absolute;
+    top:2px;
+    left:69px;
+}
+.shoujia-dd5>div span img{
+    width:12px;
+    height:12px;
+    margin-left:15px;
+    margin-right: 2px; 
+}
+/* **********************shoujia dd6******************* */
+.buyBtns{
+    margin-top: 20px;
+}
+#BUY{
+    position: relative;
+    width: 156px;
+    height: 46px;
+    border: 2px solid #d41c44;
+    background-color: #ffeced;
+    color: #d31b44;
+    line-height: 46px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#BUY:hover{
+    color: #f8305b;
+    border-color: #f8305b;
+    background-color: #fffaf8;
+}
+#ADD{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #e31436;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#ADD:hover{
+    background-color: #f5345e;
+    color: #fff;
+}

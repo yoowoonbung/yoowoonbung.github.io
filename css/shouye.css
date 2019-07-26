@@ -1,0 +1,388 @@
+*{margin: 0;padding:0}
+a{text-decoration: none;color: black;}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+
+body{background: #f0f0f0;}
+.head-z,.topTab-z{
+    background: #fff;
+}
+
+/************************ top **************************/
+
+.top{
+    width: 100%;
+    height:80px;
+    position:relative;
+    overflow: hidden;
+}
+.top a{
+    position:absolute;
+    top:0px;
+    left:50%;
+}
+.top img{
+    position:relative;
+    left:-50%;
+}
+
+
+/*********************** banner  left***********************/
+
+.banner0{
+    background: #000;
+    height:31px;
+    position: relative;
+    font-size: 12px;
+}
+.banner1{
+    margin: 0 auto;
+    width:1090px;
+    height:31px;
+    color: #999;  
+}
+.banner1 a{
+    color: #999;
+}
+.banner-1{
+    line-height: 31px;
+    float: left;
+}
+.banner-1 a{
+    margin-left: 22px;
+}
+.banner-2{
+    line-height: 31px;
+    float: left;
+    margin-left: 30px;
+    position:relative;
+}
+.banner-1 a:hover,.banner-2 a:hover {color:#fff;}
+.QR:hover .QRcode{display: block;}
+.QRcode{
+    position:absolute;
+    top:37px;
+    left:-30px;
+    padding: 5px 5px 0;
+    border: 1px solid #ededee;
+    display: none;
+    background: #fff;
+    z-index: 2;
+}
+.QRcode img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.QRcode h3{
+    display:block;
+    color:#ff1e32;
+    font-size:13px;
+    padding:4px 0;
+    line-height: 18px;
+    text-align: center;
+}
+.QRcode>span{
+    position: absolute;
+    left:56px;
+    top:-20px;
+    display: block;
+}
+/*********************** banner  right***********************/
+.banner1 ul{
+    float: right;
+    
+}
+.banner1 li{
+    float: left;
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+}
+.banner1 li a{font-size: 12px;position: relative;}
+.banner1 li{padding:0 20px 0 18px;position:relative;}
+.banner1 li:nth-child(1):hover a,.banner1 li:nth-child(2):hover a{color:#fff} 
+.banner1 li:nth-child(1):hover ,.banner1 li:nth-child(2):hover {background:#000} 
+.banner1 li:hover a{color:#ff1e32}
+.banner1 li:hover{background:#fff}
+.banner1 li:hover i{transform: rotate(180deg)}
+.banner1 li:hover div{display: block;}
+.banner1 li:hover div a{color: #666;}
+.banner1 li div a:hover{color:#ff1e32;}
+.jiao{
+    position: absolute;
+    top:50%;
+    right:-10px;
+    margin-top: -2px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-color: #999 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    transition: transform 0.2s ease-in; 
+}
+.banner1 li div a{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    color:#999;
+}
+.banner1 li div{
+    position: absolute;
+    left:0;
+    width:101px;
+    border-top:0px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+    padding-left:16px;
+    display: none;
+    color:#666;
+    z-index: 1;
+    background: #fff;
+}
+.banner1 li:last-child div{
+    right:0;
+    width: 73px;
+    left:unset;
+    padding-left:16px;
+    
+}
+
+
+
+/************************** head *****************************/
+/* logo */
+.head{
+    width: 1090px;
+    margin:0 auto;
+    height:100px;
+    position: relative;
+    z-index: 0;
+}
+.head .logo{
+    position: absolute;
+    width: 330px;
+    height:65px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    left: 0px;
+    top:20px;  
+}
+
+/* select */
+.select-z{
+    position: absolute;
+    left:343px;
+    top:24px;
+}
+.select-red{
+    width:510px;
+    height:40px;
+    padding-left: 1px;
+    background-color: #ff2337;
+    border-radius: 40px;
+}
+.select-in{
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+}
+.select-in input{
+    width:410px;
+    height:22px;
+    line-height: 22px;
+    border:0;
+    font-size: 13px;
+    outline: none;
+}
+.Magnifier{
+    width: 60px;
+    height: 40px;
+    background: #ff2337;
+    background-image: linear-gradient(270deg,#ff2e64,#ff0003);
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Magnifier-in{
+    width: 50px;
+    height: 40px;
+    font-size: 19px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: url(../img/select.png) no-repeat 50%;
+    cursor: pointer;
+}
+.select-min{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width:14px; 
+    height:14px;
+    background: url(../img/select-min.png);
+    display: inline-block;
+}
+.select-z ul{
+    line-height: 22px;
+    height:22px;
+    width: 461px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.select-z ul li{float: left;margin-left: 30px;}
+.select-z ul li a{color:#999999;font-size:12px;}
+.select-z ul li a:hover{text-decoration:underline;}
+.select-z ul li:nth-child(4) a{color: #ff1e32;}
+
+/* shopping */
+#shopping {
+    display: block;
+    position: absolute;
+    right: 76px;
+    width: 106px;
+    height:36px;
+    line-height: 36px;
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 36px;
+    border:2px solid #ff1e32;
+    top:24px;
+}
+#shopping i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-bottom: -5px;
+    background: url(../img/che.png)
+}
+#shopping span{
+    display: inline-block;
+    padding-left: 6px;
+    vertical-align: middle;
+    background: none;
+    color:#333333;
+}
+#shopping:hover{background: #fff4f5;}
+
+/******************** top tab **********************/
+.topTab{
+    position: relative;
+    height: 40px;
+    width:1090px;
+    margin: 0 auto;
+    line-height:40px;
+    border-bottom: 1px solid #ccc;
+}
+.topTab-menu{
+    width:164px;
+    height:40px;
+    float: left;
+    background: linear-gradient(90deg, red, #ff3264);
+    position: relative;
+    z-index: 2;
+}
+/* 二级显示 */
+.topTab-menu:hover #topTab-menu-bottom{display: block;}
+
+/* ******** */
+.topTab-right{float:left;padding-left: 25px;}
+.topTab-right li{
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    padding:0 20px;
+    
+}
+.topTab-right li a{
+    color: #333;
+}
+.topTab-right li a:hover{color: #ff1e32}
+
+/* topTab-menu-top */
+
+#topTab-menu-top{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 164px;
+    text-align: left;
+    border-bottom: 1px solid #ff5160;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+#topTab-menu-top span{
+    display: inline-block;
+    line-height: 40px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+}
+.topTab-menu-in{
+    display: inline-block;
+    margin: 0 24px 0 15px;
+    width: 15px;
+    height: 12px;
+    overflow: hidden;
+}
+.topTab-menu-in i{
+    width: 15px;
+    height: 0;
+    border-top: 2px solid #ddd;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* topTab-menu-bottom */
+#topTab-menu-bottom{
+    background: linear-gradient(to right,#f00,#ff3264);
+    display: none;
+    z-index: 2;
+}
+#topTab-menu-bottom li{
+    height: 41.81px;
+    line-height: 41.81px;
+    background: linear-gradient(90deg,red,#ff3264);
+    padding-left: 10px;
+    width: 151px;
+    cursor: pointer;
+    text-align: left;
+    padding-right: 3px;
+}
+#topTab-menu-bottom li img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 0 20px 0 4px;
+}
+#topTab-menu-bottom li span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 14px;
+    
+}
+#topTab-menu-bottom li i{color:#ff96ad;}
+
+
+
+
+
+
+
+
