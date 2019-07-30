@@ -16,7 +16,7 @@ let goodsData=[
     {id:1015,icond:"img/shopping/SP1-15.jpg",goods:"A.H.C 玻尿酸神仙水水乳套盒 平价补水扛把子",info:"不一样的神仙水 保湿滋润",nowPrice:135.00,initPrice:159.00,sold:0.99}
 ];
     let shoppingList=[];
-    let headers=["全选","","商品信息","","单价(元)","数量","金额(元)","操作"];
+    let headers=["全选","","商品信息","","","单价(元)","数量","金额(元)","操作"];
     let table;
     var importantt=getCookie().add;
     var shoppingdiv=document.getElementById("shoppingdiv");
