@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/MagnifyingGlass/Utils.js"></script>
+    <script src="js/MagnifyingGlass/MagnifyingGlass.js"></script>
+    <script src="js/MagnifyingGlass/showImage.js"></script>
+    <script src="js/MagnifyingGlass/Main.js"></script>
+    <script src="js/details/stepNumber.js"></script>
 
-    <title>网易考拉</title>
     <link rel="stylesheet" href="css/shouye.css">
-    <link rel="stylesheet" href="css/lunbotu.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/productList.css">
     <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/details.css">
 </head>
-    
-<body>
 
+<body>
     <!-- top -->
     <div class="top">
         <a href="#"><img src="img/top.jpg" alt="双品网购物节"></a>
@@ -205,53 +207,112 @@
             </ul>
         </div>
     </div>
+    <!-- **************************************************************** -->
+    <!-- left -->
+    <div id="MagnifyingGlass">
+        <div id="details-left"></div>
+        <dl class="details-right">
+            <dt><i>自营</i><i>跨境</i></dt>
+            <dt>
+                <img src="img/details/hanguo.png">
+                <span>韩国</span>
+                <span>|</span>
+                <a href="https://www.kaola.com/brand/1389.html">A.H.C</a>
+            </dt>
+            <dt>
+                <span class="">A.H.C 玻尿酸神仙水水乳套盒 平价补水扛把子</span>
+            </dt>
+            <dt>
+                首尔江南 院御用产品！堪称韩国“神仙水”！让爱美的女孩们用上满满新鲜的玻尿酸！集中补水，密集修护，在家就能享受的高级护理~
+            </dt>
+            <dd class="shoujia-dd1">
+                <div class="shoujia1">
+                    <span>售价</span>
+                    <div>
+                        <span>新人价</span>
+                        <span>
+                            <span>￥</span>135.00
+                        </span>
+                        <span>
+                            考拉价￥159.00
+                        </span>
+                    </div>
+                </div>
+                <div class="shoujia2">
+                    <div class="shoujia2-top">
+                        <img src="img/details/block.png">
+                        <span>黑卡会员预计可
+                            <i>省¥5.4</i>
+                        </span>
+                    </div>
+                    <div class="shoujia2-buttom">
 
+                        <span>含会员96折</span>
+                        <div><span>开卡79.9</span></div>
+                    </div>
+                </div>
+                <div class="shoujia3"></div>
+            </dd>
+            <dd class="shoujia-dd2">
+                <span>活动</span>
+                <div>
+                    <span>
+                        <a href="#">满2件减30</a>
+                        <a href="#">点击凑单></a>
+                    </span>
+                </div>
+            </dd>
+            <dd class="shoujia-dd2">
+                <span>税费</span>
+                <div>
+                    <span>
+                        预估￥14.47，实际税费请以提交订单时为准
+                    </span>
+                </div>
+            </dd>
+            <dd class="shoujia-dd2">
+                <span>服务</span>
+                <div>
+                    <span>
+                        本商品由&nbsp;自营保税仓&nbsp;发货
+                    </span>
+                </div>
+            </dd>
+            <dd class="shoujia-dd3">
+                <img src="img/details/QQ.png">
+            </dd>
+            <dd class="shoujia-dd4">
+                <span>数量</span>
+                <div id="DD"></div>
+            </dd>
+            <dd class="shoujia-dd5">
+                    <span>说明</span>
+                    <div>
+                        <span>    
+                        <img src="img/details/QQ2.png">会员96折<img src="img/details/QQ2.png"> 正品保障支持 <img src="img/details/QQ2.png">7天无忧退货
+                        </span>
+                    </div>
+            </dd>
+            <dd id="shoujia-dd6">
+                <form action="post">
+                    <div class="buyBtns">
+                        <a href="#" id="BUY">立即购买</a>
+                        <a href="#" id="ADD">加入购物车</a>
+                    </div>
+                </form>
+            </dd>
 
-    <!-- 轮播图 -->
-    <div id="carouselTU"></div>
-
-    <!-- 券1 -->
-    <div class="ticket">
-        <div class="ticket1 ticket-1"></div>
-        <div class="ticket1 ticket-2"></div>
-        <div class="ticket1 ticket-3"></div>
-        <div class="ticket1 ticket-4"></div>
-        <div class="ticket1 ticket-5"></div>
-        <div class="ticket1 ticket-6"></div>
-        <div class="ticket1 ticket-7"></div>
-        <div class="ticket1 ticket-8"></div>
-        <div class="ticket1 ticket-9"></div>
+        </dl>
     </div>
-    <!-- 券 -->
-    <div class="ticket-bottom">
-        <a href="#"></a>
-    </div>
-
-    <!-- 会场 parallel sessions-->
-    <div class="parallelSessions">
-        <a class="parallelSessions0 parallelSessions1" href="#"></a>
-        <a class="parallelSessions0 parallelSessions2" href="#"></a>
-        <a class="parallelSessions0 parallelSessions3" href="#"></a>
-        <a class="parallelSessions0 parallelSessions4" href="#"></a>
-    </div>
 
 
-    <!-- 商品列表 productList -->
-    <div class="productList">
-        <div class="productList1">
-            <div class="productList-title">★口碑爆款★</div>
-            <section class="cunchu">
-               
-            </section>
-        </div>
 
-    </div>
 
-    <!-- 保障 -->
-    <div class="baozhang">
-        <a href="#"></a>
-    </div>
 
+
+
+
+    <!-- **************************************************************** -->
     <!-- bottom -->
     <footer>
         <div class="foot-top">
@@ -374,33 +435,18 @@
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="js/Top.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="js/Utils.js"></script> <!-- 预加载 -->
-    <script src="js/carousel.js"></script> <!-- 轮播图-->
+    <script>
+        var MG = document.getElementById("details-left")
+        Main.getInstance().init().appendTo(MG);
+    </script>
 
+    <script>
+        var DD= document.getElementById("DD")
+        let step=new StepNumber(DD);
+    </script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
-    <!-- <script src="./node_modules/cookie/index.js"></script> -->
-    <script src="js/productList.js"></script>
+    <script src="js/details/details.js"></script>
 
 </body>
 
